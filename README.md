@@ -105,11 +105,7 @@ REDIRECT_URI=https://localhost/spotify_callback
 Trust the certificate in your browser (Advanced → Proceed to localhost).
 
 --- 
-🐳 Step 2: Run Auth Proxy with Docker
 
-docker run --rm -it -p 27228:27228 --env-file ./.env ghcr.io/conradludgate/spotify-auth-proxy
-
-After authentication, copy the access token shown in the terminal and use it in terraform.tfvars.
 ## 🐳 Step 2: Run Auth Proxy with Docker
 
 ```bash
