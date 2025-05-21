@@ -41,7 +41,7 @@ terraform-spotify/
 2. Create a new app.
 3. Add a Redirect URI:
    ```
-   http://localhost:27228/spotify_callback
+   https://localhost:27228/spotify_callback
    ```
 4. Copy the `Client ID` and `Client Secret`.
 5. Create a `.env` file in your project directory:
